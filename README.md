@@ -1,5 +1,11 @@
-## Next.js App Router Course - Starter
+/\*\*
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+- This code block contains a link to the Next.js dashboard tutorial.
+- I am proud to share that I have successfully completed the tutorial and deployed it at https://munaxkro-nextjs-dashboard-tutorial.vercel.app/.
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+# **Try it out**
+
+It's a simple dashboard with a login page. You can login with the following credentials:
+
+Email: user@nextmail.com
+Password: 123456
