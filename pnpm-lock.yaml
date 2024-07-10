@@ -31,10 +31,10 @@ importers:
         version: 2.1.1
       next:
         specifier: 14.3.0-canary.45
-        version: 14.3.0-canary.45(@babel/core@7.24.7)(react-dom@19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708)
+        version: 14.3.0-canary.45(@babel/core@7.24.7)(react-dom@19.0.0-rc-c3cdbec0a7-20240708(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708)
       next-auth:
         specifier: 5.0.0-beta.19
-        version: 5.0.0-beta.19(next@14.3.0-canary.45(@babel/core@7.24.7)(react-dom@19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708)
+        version: 5.0.0-beta.19(next@14.3.0-canary.45(@babel/core@7.24.7)(react-dom@19.0.0-rc-c3cdbec0a7-20240708(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708)
       postcss:
         specifier: 8.4.31
         version: 8.4.31
@@ -43,7 +43,7 @@ importers:
         version: 19.0.0-rc-c3cdbec0a7-20240708
       react-dom:
         specifier: 19.0.0-rc-c3cdbec0a7-20240708
-        version: 19.0.0-rc-c3cdbec0a7-20240708
+        version: 19.0.0-rc-c3cdbec0a7-20240708(react@19.0.0-rc-c3cdbec0a7-20240708)
       tailwindcss:
         specifier: 3.3.3
         version: 3.3.3
@@ -2145,10 +2145,10 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@19.0.0-rc-6230622a1a-20240610:
-    resolution: {integrity: sha512-56G4Pum5E7FeGL1rwHX5IxidSJxQnXP4yORRo0pVeOJuu5DQJvNKpUwmJoftMP/ez0AiglYTY77L2Gs8iyt1Hg==}
+  react-dom@19.0.0-rc-c3cdbec0a7-20240708:
+    resolution: {integrity: sha512-R1yZwlnsVfcoGBR+uuPmp3vR66ggmPv6gnskNR5T4JXHHZoa0bqiPKVbaRR49Y05k0gEUYWhJ0J/+g30ydaqTQ==}
     peerDependencies:
-      react: 19.0.0-rc-6230622a1a-20240610
+      react: 19.0.0-rc-c3cdbec0a7-20240708
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -2233,8 +2233,8 @@ packages:
     resolution: {integrity: sha512-CdASjNJPvRa7roO6Ra/gLYBTzYzzPyyBXxIMdGW3USQLyjWEls2RgW5UBTXaQVp+OrpeCK3bLem8smtmheoRuw==}
     engines: {node: '>= 0.4'}
 
-  scheduler@0.25.0-rc-6230622a1a-20240610:
-    resolution: {integrity: sha512-GTIQdJXthps5mgkIFo7yAq03M0QQYTfN8z+GrnMC/SCKFSuyFP5tk2BMaaWUsVy4u4r+dTLdiXH8JEivVls0Bw==}
+  scheduler@0.25.0-rc-c3cdbec0a7-20240708:
+    resolution: {integrity: sha512-6mqVykDuPCkZuUalm+gKV7ZcvUIfAievjc1wkmzrGM5sJhltm6z7mXN9bDujuk+c+/HqvwtW/G7ZCF92HNCHAA==}
 
   semver@5.7.2:
     resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
@@ -4605,13 +4605,13 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next-auth@5.0.0-beta.19(next@14.3.0-canary.45(@babel/core@7.24.7)(react-dom@19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708):
+  next-auth@5.0.0-beta.19(next@14.3.0-canary.45(@babel/core@7.24.7)(react-dom@19.0.0-rc-c3cdbec0a7-20240708(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708):
     dependencies:
       '@auth/core': 0.32.0
-      next: 14.3.0-canary.45(@babel/core@7.24.7)(react-dom@19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708)
+      next: 14.3.0-canary.45(@babel/core@7.24.7)(react-dom@19.0.0-rc-c3cdbec0a7-20240708(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708)
       react: 19.0.0-rc-c3cdbec0a7-20240708
 
-  next@14.3.0-canary.45(@babel/core@7.24.7)(react-dom@19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708):
+  next@14.3.0-canary.45(@babel/core@7.24.7)(react-dom@19.0.0-rc-c3cdbec0a7-20240708(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708):
     dependencies:
       '@next/env': 14.3.0-canary.45
       '@swc/helpers': 0.5.11
@@ -4620,7 +4620,7 @@ snapshots:
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 19.0.0-rc-c3cdbec0a7-20240708
-      react-dom: 19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-c3cdbec0a7-20240708)
+      react-dom: 19.0.0-rc-c3cdbec0a7-20240708(react@19.0.0-rc-c3cdbec0a7-20240708)
       styled-jsx: 5.1.1(@babel/core@7.24.7)(react@19.0.0-rc-c3cdbec0a7-20240708)
     optionalDependencies:
       '@next/swc-darwin-arm64': 14.3.0-canary.45
@@ -4886,10 +4886,10 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-c3cdbec0a7-20240708):
+  react-dom@19.0.0-rc-c3cdbec0a7-20240708(react@19.0.0-rc-c3cdbec0a7-20240708):
     dependencies:
       react: 19.0.0-rc-c3cdbec0a7-20240708
-      scheduler: 0.25.0-rc-6230622a1a-20240610
+      scheduler: 0.25.0-rc-c3cdbec0a7-20240708
 
   react-is@16.13.1: {}
 
@@ -4991,7 +4991,7 @@ snapshots:
       es-errors: 1.3.0
       is-regex: 1.1.4
 
-  scheduler@0.25.0-rc-6230622a1a-20240610: {}
+  scheduler@0.25.0-rc-c3cdbec0a7-20240708: {}
 
   semver@5.7.2: {}
 
