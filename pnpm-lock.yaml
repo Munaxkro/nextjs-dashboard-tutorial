@@ -30,7 +30,7 @@ importers:
         specifier: ^2.0.0
         version: 2.1.1
       next:
-        specifier: 15.0.0-canary.61
+        specifier: ^15.0.0-canary.61
         version: 15.0.0-canary.61(@babel/core@7.24.7)(react-dom@19.0.0-rc-c3cdbec0a7-20240708(react@19.0.0-rc-c3cdbec0a7-20240708))(react@19.0.0-rc-c3cdbec0a7-20240708)
       next-auth:
         specifier: 5.0.0-beta.19
